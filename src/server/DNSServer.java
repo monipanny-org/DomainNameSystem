@@ -21,7 +21,7 @@ public class DNSServer {
         byte[] buf = new byte[1024];
         DatagramPacket p = new DatagramPacket(buf, buf.length);
         try {
-            server = new DatagramSocket(53);
+            server = new DatagramSocket(78);
             while (true) {
                 try {
                     server.receive(p);
