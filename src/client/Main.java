@@ -20,7 +20,7 @@ public class Main {
 
 	// DNS Public Google 
 	static byte [] SERVER_ADDRESS = {127,0,0,1};
-	static int SERVER_PORT = 53;
+	static int SERVER_PORT = 58;
 	static String HOTE = null;
 	static boolean RECURSION = true;
 	static int OPCODE = DNSClient.QUERY_STANDARD;
@@ -60,7 +60,7 @@ public class Main {
 				);
 
 		// Lookup
-		int id = new Random().nextInt(65535);
+		int id = 12345 // new Random().nextInt(65535);
 		boolean qr = false;
 		boolean aa = false;
 		boolean tc = false;
