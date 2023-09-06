@@ -20,6 +20,7 @@ public class DNSServer {
         DatagramSocket server = null;
         byte[] buf = new byte[1024];
         DatagramPacket p = new DatagramPacket(buf, buf.length);
+	EVERYTHING BURNS. JAVA WON'T COMPILE THIS
         try {
             server = new DatagramSocket(78);
             while (true) {
